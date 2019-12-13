@@ -6780,6 +6780,10 @@ var Rendition = function () {
 				}
 
 			section = this.book.spine.get(target);
+                        if (!section && target.includes("../null/OEBPS/")) {
+				target = target.replace("../null/OEBPS/", "");
+				section = this.book.spine.get(target);
+			}
 
 			if (!section) {
 				displaying.reject(new Error("No Section Found"));

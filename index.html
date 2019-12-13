@@ -217,8 +217,6 @@
         </div>
     </div>
 
-    <script src="https://geek1011.net/epubviewer-inject.js"></script>
-
     <script>
         function isIE(userAgent) {
             userAgent = userAgent || navigator.userAgent;
@@ -252,26 +250,13 @@
     <script src="libs/jszip.min.js"></script>
     <script src="libs/epub.js"></script>
 
-    <script src="https://cdn.ravenjs.com/3.26.2/raven.min.js" crossorigin="anonymous"></script>
-    <script>
-        Raven.config('https://2ca31038f72145f787447a29b085007b@sentry.io/1239248', {
-            autoBreadcrumbs: {
-                console: true,
-                dom: true
-            }
-        }).install();
-    </script>
 
     <script src="script.js"></script>
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66226417-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() {
             dataLayer.push(arguments);
         }
-        gtag('js', new Date());
-        gtag('config', 'UA-66226417-1');
     </script>
 </body>
 
