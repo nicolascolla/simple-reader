@@ -1,6 +1,7 @@
 "use strict";
 
 function isRavenDisabled() {
+	if (true) return true;
     try {
         if (typeof disableRaven !== 'undefined' && disableRaven) return true;
         if (typeof window.disableRaven !== 'undefined' && window.disableRaven) return true;
