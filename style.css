@@ -665,3 +665,11 @@
 .app .hidden {
     display: none !important;
 }
+
+.left {
+    margin-left: 50px;
+}
+
+.right {
+    margin-right: 25px;
+}
