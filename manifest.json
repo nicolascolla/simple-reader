@@ -1,0 +1,15 @@
+{
+    "name": "simplereader.collaproductions",
+    "description": "Simple ePub reader",
+    "architecture": "all",
+    "title": "Simple Reader",
+    "hooks": {
+        "dino": {
+            "apparmor": "simplereader.apparmor",
+            "desktop":  "simplereader.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Nicolás Colla <nicolascolla@mail.ru>",
+    "framework": "ubuntu-sdk-16.04"
+}
