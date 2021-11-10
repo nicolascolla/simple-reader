@@ -667,7 +667,11 @@
 }
 
 .left {
-    margin-left: 50px;
+    margin-left: 25px;
+}
+
+button.open {
+    padding-left: 25px;
 }
 
 .right {
