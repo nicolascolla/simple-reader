@@ -1,6 +1,6 @@
 {
     "name": "simplereader.collaproductions",
-    "description": "Simple ePub reader",
+    "description": "Lightweight ePub reader for Ubuntu Touch",
     "architecture": "all",
     "title": "Simple Reader",
     "hooks": {
