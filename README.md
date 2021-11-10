@@ -38,3 +38,8 @@ $ click build .
 ### Installing the Bookerly font
 
 The Bookerly font is available on the menu. However, it is not included in Ubuntu Touch. In order to install it, download the Bookerly font files from the internet and add them to `/home/phablet/.fonts`.
+
+### todo
+
+- Remember fullscreen state across reboots
+- Open epub files from the content hub
