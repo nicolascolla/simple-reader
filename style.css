@@ -660,3 +660,11 @@
 .app .hidden {
     display: none !important;
 }
+
+.left {
+    margin-left: 25px;
+}
+
+.right {
+    margin-right: 25px;
+}
