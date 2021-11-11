@@ -4,7 +4,7 @@
     "architecture": "all",
     "title": "Simple Reader",
     "hooks": {
-        "dino": {
+        "simplereader": {
             "apparmor": "simplereader.apparmor",
             "desktop":  "simplereader.desktop"
         }
