@@ -7,6 +7,7 @@
 Lightweight ePub reader for Ubuntu Touch. Forked from [ePubViewer](https://github.com/gsantner/ePubViewer).
 
 [![OpenStore](https://open-store.io/badges/en_US.png)](https://open-store.io/app/simplereader.collaproductions)
+[![](https://i.imgur.com/KIipzE8.png)](https://t.me/collaproductions)
 
 ### Features
 
