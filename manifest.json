@@ -6,7 +6,8 @@
     "hooks": {
         "simplereader": {
             "apparmor": "simplereader.apparmor",
-            "desktop":  "simplereader.desktop"
+            "desktop":  "simplereader.desktop",
+            "content-hub": "contenthub.json"
         }
     },
     "version": "1.0.2",
