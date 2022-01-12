@@ -2,9 +2,12 @@ import QtQuick 2.9
 import Ubuntu.Components 1.3
 import QtQuick.Window 2.2
 import Morph.Web 0.1
+import "UCSComponents"
 import QtWebEngine 1.7
 import Qt.labs.settings 1.0
 import QtSystemInfo 5.5
+import Ubuntu.Components.ListItems 1.3 as ListItemm
+import Ubuntu.Content 1.3
 
 MainView {
   id:window
@@ -18,7 +21,14 @@ MainView {
 
 
 
+  PageStack {
+    id: mainPageStack
+    anchors.fill: parent
+    Component.onCompleted: mainPageStack.push(pageMain)
 
+    Page {
+      id: pageMain
+      anchors.fill: parent
 
   WebView {
     id: webview
@@ -40,6 +50,16 @@ MainView {
       request.accept();
     }
 
+        onFileDialogRequested: function(request) {
+          request.accepted = true;
+          var importPage = mainPageStack.push(Qt.resolvedUrl("ImportPage.qml"),{"contentType": ContentType.All, "handler": ContentHandler.Source})
+          importPage.imported.connect(function(fileUrl) {
+            console.log(String(fileUrl).replace("file://", ""));
+            request.dialogAccept(String(fileUrl).replace("file://", ""));
+            mainPageStack.push(pageMain)
+          })
+        }
+
 
 
     profile:  WebEngineProfile{
@@ -53,6 +73,7 @@ MainView {
       fill:parent
     }
     
+        zoomFactor: 2.8
         url: Qt.resolvedUrl('index.html')
 
 
@@ -109,6 +130,8 @@ MainView {
       }
     }
   }
+}
+}
 
 
 
