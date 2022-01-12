@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the simplereader.collaproductions package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: simplereader.collaproductions\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-12 01:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/BrowserDialogs/AlertDialog.qml:5
+msgid "Alert"
+msgstr ""
+
+#: ../qml/BrowserDialogs/AlertDialog.qml:8
+#: ../qml/BrowserDialogs/ConfirmDialog.qml:8
+#: ../qml/BrowserDialogs/PromptDialog.qml:14
+msgid "OK"
+msgstr ""
+
+#: ../qml/BrowserDialogs/BeforeUnloadDialog.qml:5
+msgid "Confirm Navigation"
+msgstr ""
+
+#: ../qml/BrowserDialogs/BeforeUnloadDialog.qml:8
+msgid "Leave"
+msgstr ""
+
+#: ../qml/BrowserDialogs/BeforeUnloadDialog.qml:13
+msgid "Stay"
+msgstr ""
+
+#: ../qml/BrowserDialogs/ConfirmDialog.qml:5
+msgid "Confirmation"
+msgstr ""
+
+#: ../qml/BrowserDialogs/ConfirmDialog.qml:13
+#: ../qml/BrowserDialogs/PromptDialog.qml:20
+msgid "Cancel"
+msgstr ""
+
+#: ../qml/BrowserDialogs/PromptDialog.qml:5
+msgid "Prompt"
+msgstr ""
+
+#: ../qml/components/About.qml:54
+msgid "&Back"
+msgstr ""
+
+#: ../qml/components/AppHeader.qml:9
+msgid "Turtl"
+msgstr ""
+
+#: ../qml/components/AppHeader.qml:23
+msgid "About"
+msgstr ""
+
+#: ../qml/components/AppHeader.qml:32
+msgid "Night Mode"
+msgstr ""
+
+#: ../qml/polyfills/babel-polyfill.min.js:1
+msgid "delete"
+msgstr ""
+
+#: ../qml/polyfills/babel-polyfill.min.js:1
+msgid "get"
+msgstr ""
+
+#: ../qml/polyfills/babel-polyfill.min.js:1
+msgid "has"
+msgstr ""
+
+#: ../qml/polyfills/babel-polyfill.min.js:2
+msgid "Wrong length!"
+msgstr ""
+
+#: ../qml/polyfills/babel-polyfill.min.js:2
+msgid "Wrong offset!"
+msgstr ""

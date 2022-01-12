@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Simple Reader
-Exec=webapp-container --app-id="simplereader.collaproductions" $@ index.html
+Exec=qmlscene %U qml/Main.qml
 Icon=icon.png
 X-Ubuntu-Splash-Color=#df4f5c
 X-Ubuntu-Splash-Image=splash.png

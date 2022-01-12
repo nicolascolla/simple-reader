@@ -11,5 +11,5 @@
     },
     "version": "1.0.2",
     "maintainer": "Nicolás Colla <nicolascolla@mail.ru>",
-    "framework": "ubuntu-sdk-16.04"
+    "framework": "ubuntu-sdk-16.04.5"
 }
