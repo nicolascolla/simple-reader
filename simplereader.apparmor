@@ -1,9 +1,10 @@
 {
-    "template": "ubuntu-webapp",
     "policy_groups": [
-        "webview",
         "networking",
-        "content_exchange"
+        "content_exchange",
+        "webview",
+        "camera",
+        "content_exchange_source"
     ],
     "policy_version": 16.04
 }
